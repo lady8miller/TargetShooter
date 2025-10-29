@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="root" xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.demo10.GameController">
+
+    <Button fx:id="startButton" text="Start Game" layoutX="20" layoutY="20" onAction="#startGame"/>
+    <Label fx:id="scoreLabel" text="Score: 0" layoutX="150" layoutY="25" />
+    <Label fx:id="timerLabel" text="Time: 30" layoutX="250" layoutY="25" />
+
+    <Pane fx:id="gameArea" layoutX="20" layoutY="60" prefWidth="600" prefHeight="400"
+          style="-fx-border-color: black; -fx-background-color: lightblue;" />
+</AnchorPane>
+
+
